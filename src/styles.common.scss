@@ -1,0 +1,15 @@
+@use 'sass:list';
+@use 'sass:math';
+@use 'sass:string';
+@use 'ungic-sass-theme' as *;
+@use 'ungic-sass-utils' as *;
+@use './styles/configs/properties.scss' as props;
+
+// Any global imports
+
+body {
+  font-family: prop('font-family');
+  background-color: color(background-color);
+  color: color(text-color);
+}
+

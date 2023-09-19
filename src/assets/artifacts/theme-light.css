@@ -1,0 +1,93 @@
+/*------------------------------------------
+*   Theme file
+--------------------------------------------
+*   Theme: default
+*   Desc: This file is part of ungic.theme module
+*   API:  https://ungic.com/guide/api/sass.html#ungic-theme
+*/
+/*
+*   Inverts the number
+*/
+/*
+*   Retrieves configuration from configuration file of active theme by path project/themes/THEME_NAME.css
+*   It depends on the chosen theme for rendering
+*/
+/*
+*   check if the color has a palette
+*/
+/*
+*   check if a tint exists in the palette
+*/
+/*
+*   Get color from palette
+*/
+/*
+*   Color lighten method
+*   Lightness control
+*/
+/*
+*   Color darken method
+*   Lightness control
+*/
+/*
+*   Lightening method with inversion support
+*   Lightness control
+*/
+/*
+*   Brightening method with inversion support
+*   Saturation control
+*/
+/*
+*   Method for dimming color
+*   Saturation control
+*/
+/*
+*   Method of increasing the brightness of the color
+*   Saturation control
+*/
+/*
+*   Get a tint for the color
+*/
+/*
+*   Get theme config
+*/
+/*
+*   Get values by key from $theme
+*/
+/*
+*   Return value relative to active theme type
+*/
+/*
+*   Get theme colors or specific color
+*/
+/*
+*   Get gray color with $offset
+*/
+/*
+*   Returns gray color as var
+*/
+/*
+*   Returns gray color as rgb value list
+*/
+/*
+*   The main function for working with colors of theme
+*   $color-name - get color by $color-name
+*   $color-tint - may be a tint from the palette or $offset
+*/
+/*
+*   Returns color as var
+*/
+/*
+*   Returns color as var with rgb value list
+*/
+/*------------------------------------------
+*   Optional project file
+--------------------------------------------
+*   Module: ungic.project
+*   Desc: This file contains any CSS properties that can be applied when styling components.
+*   API:  https://ungic.com/guide/api/sass.html#ungic-project
+*/
+.light body {
+  background-color: white;
+  color: #3f424d;
+}

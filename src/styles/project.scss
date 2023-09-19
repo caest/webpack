@@ -1,0 +1,5 @@
+@use "sass:meta";
+@use "./configs/properties.scss" as props;
+@use "ungic-sass-props" with ($properties: meta.module-variables(props));
+
+@forward "ungic-sass-props";

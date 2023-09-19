@@ -1,0 +1,86 @@
+/*------------------------------------------
+*   Theme file
+--------------------------------------------
+*   Theme: default
+*   Desc: This file is part of ungic.theme module
+*   API:  https://ungic.com/guide/api/sass.html#ungic-theme
+*/
+
+// Colors can be specified as a list, where the first value will be applied in normal mode and the second in inversion mode
+
+$colors: (
+  primary: (
+    #0977ff,
+    #00a8ff,
+  ),
+  secondary: #000000,
+  success: #5ebe4f,
+  extra: #eb6862,
+  danger: #d63333,
+  info: #98d9ff,
+  warning: #ed9d0a,
+  system: #3401ff,
+  text-color: (
+    #3f424d,
+    #fff,
+  ),
+  background-color: (
+    #fff,
+    #1d212a,
+  ),
+);
+
+$config: (
+  brightness: (
+    offset-brighten: (
+      0,
+      0%,
+    ),
+    // List type possible
+    offset-dim: 0,
+    // List type possible
+    saturation-brighten:
+      (
+        0,
+        0,
+      ),
+    // List type possible
+    saturation-dim:
+      (
+        0,
+        0,
+      )
+      // List type possible,
+  ),
+  relative-light-limit: true,
+  gray: (
+    saturation: (
+      30%,
+      5%,
+    ),
+    // List type possible
+    hue: #0977ff // List type possible,
+  ),
+);
+
+$palettes: (
+  primary: (
+    lighten: #d1d8ff,
+    dark: #201dcc,
+    darken: #3705aa,
+  ),
+  "gray": (
+    border: 0.8,
+    "100": 0.9,
+    "200": 0.8,
+    "300": 0.7,
+    "400": 0.6,
+    "500": 0.1,
+    "600": -0.2,
+    "800": -0.5,
+  ),
+);
+
+// Inverse mode
+//$inverse-mode: true;
+$colors-vars-mode: false;

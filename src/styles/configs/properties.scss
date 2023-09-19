@@ -1,0 +1,27 @@
+/*------------------------------------------
+*   Optional project file
+--------------------------------------------
+*   Module: ungic.project
+*   Desc: This file contains any CSS properties that can be applied when styling components.
+*   API:  https://ungic.com/guide/api/sass.html#ungic-project
+*/
+@use "ungic-sass-utils" as utils;
+@use "ungic-sass-theme" as theme;
+
+$font-size: 14px;
+$line-height: 1.5;
+$font-family: "Open Sans", sans-serif;
+$padding: 1.2em;
+$box-shadow: none;
+$border-radius: 3px;
+
+// Outline
+$outline-color: theme.color(system, 0.6);
+$outline-style: ridge;
+$outline-width: 2px;
+$outline-offset: 2px;
+
+// Border
+$border-width: 2px;
+$border-style: solid;
+$border-color: theme.gray(0.8);
