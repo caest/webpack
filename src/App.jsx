@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.common.scss';
+import './styles.scss';
+
 
 const App = () => {
   return (
